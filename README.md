@@ -19,7 +19,7 @@
     * IntentService and JobService
     * massage queue
     * broadcast.
-# Demo sreenshot:
+# Demo screenshot:
 ![image](https://user-images.githubusercontent.com/25412051/38767679-8c85c162-4018-11e8-906e-ea12462e22f2.png)
 ![image](https://user-images.githubusercontent.com/25412051/38767670-5aea1112-4018-11e8-87c8-52d1440caed9.png)
 ![image](https://user-images.githubusercontent.com/25412051/38767685-b815a8e2-4018-11e8-8750-13242775f7a3.png)
