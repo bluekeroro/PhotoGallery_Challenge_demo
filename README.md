@@ -1,5 +1,6 @@
 # PhotoGallery_Challenge_demo
 * 以Android编程权威指南（第2版）中的PhotoGallery应用为基础，在此之上，完成了与其相关的挑战练习。
+* 这款Demo可显示Flickr网站上最近上传的照片，有查询功能和更新提醒功能，点击感兴趣的图片可跳转至其网页。
 * 该应用涉及
     * 网络连接
     * JSON数据的解析
@@ -9,6 +10,7 @@
     * 消息队列的理解、广播的发送与接收。
 # PhotoGallery_Challenge_demo
 * Base on PhotoGallery demo of *Android programming: the big nerd ranch guide(2th)*, and completed the all challenge practices.
+* A photo gallery demo can show the recent photos of the Flickr, and it also provide a search function.
 * This demo relate to
     * Network connection
     * JSON parse
