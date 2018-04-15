@@ -25,19 +25,19 @@
         <service android:name=".PollServiceByJobService"
             android:permission="android.permission.BIND_JOB_SERVICE"
             android:exported="false"/>
-        <reseiver android:name=".StartupReceiver">
+        <receiver android:name=".StartupReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
-        </reseiver>
+        </receiver>
 
 
-        <reseiver android:name=".NotificationReceiver"
+        <receiver android:name=".NotificationReceiver"
             android:exported="false">
             <intent-filter android:priority="-999">
                 <action android:name="com.bluekeroro.android.photogallery.SHOW_NOTIFICATION"/>
             </intent-filter>
-        </reseiver>
+        </receiver>
 
     </application>
 

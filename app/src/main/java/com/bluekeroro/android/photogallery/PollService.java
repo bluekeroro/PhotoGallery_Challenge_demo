@@ -77,7 +77,7 @@ public class PollService extends IntentService {
         Intent i=new Intent(ACTION_SHOW_NOTIFICATION);
         i.putExtra(REQUEST_CODE,requestCode);
         i.putExtra(NOTIFICATION,notification);
-        sendOrderedBroadcast(i,PERM_PRIVATE,new NotificationReceiver(),null, Activity.RESULT_OK,null,null);
+        sendOrderedBroadcast(i,PERM_PRIVATE,null,null, Activity.RESULT_OK,null,null);
     }
     private boolean isNetworkAvailableAndConnected(){
         ConnectivityManager cm=(ConnectivityManager)getSystemService(CONNECTIVITY_SERVICE);
